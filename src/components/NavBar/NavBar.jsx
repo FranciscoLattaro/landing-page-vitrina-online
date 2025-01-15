@@ -19,7 +19,7 @@ const Navbar = () => {
       </div>
       <ul className={menuOpen ? "open" : "closed"}>
         <li>
-          <NavLink to="/home">Inicio</NavLink>
+          <NavLink to="/">Inicio</NavLink>
         </li>
         <li>
           <NavLink to="/servicios">Servicios</NavLink>

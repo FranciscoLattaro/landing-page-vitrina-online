@@ -22,9 +22,9 @@ const services = [
 
 const itemTemplate = (service) => {
     return (
-        <div className="p-3">
-            <div className="text-center">
-                <img src={service.image} alt={service.title} style={{ width: '100%', borderRadius: '8px' }} />
+        <div className="p-1 mt-5">
+            <div className="">
+                <img src={service.image} alt={service.title} style={{ width: '100%', }} />
                 <h3 className="mt-3">{service.title}</h3>
                 <p>{service.description}</p>
             </div>

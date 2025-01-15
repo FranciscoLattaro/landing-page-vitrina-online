@@ -5,3 +5,14 @@
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     background-position: center; /* Centra la imagen */
 }
+
+
+
+/* Cambiar el color de la barrita activa */
+.p-carousel-indicators .p-carousel-indicator.p-highlight.p-link{
+    background-color: black !important; /* Color para la barrita activa */
+}
+
+.p-highlight .p-link {
+    background-color: black;
+}

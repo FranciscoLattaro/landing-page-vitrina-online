@@ -1,0 +1,7 @@
+.carrousel {
+    margin-top: 4rem;
+    background-image: url('../../../public/pale-textile-template.jpg');
+    background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen */
+}

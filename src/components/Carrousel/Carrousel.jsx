@@ -1,5 +1,6 @@
 import React from 'react';
 import { Carousel } from 'primereact/carousel';
+import './Carrousel.css';
 
 const services = [
     {
@@ -21,7 +22,7 @@ const services = [
 
 const itemTemplate = (service) => {
     return (
-        <div className="p-3">
+        <div className="p-3 carrousel">
             <div className="text-center">
                 <img src={service.image} alt={service.title} style={{ width: '100%', borderRadius: '8px' }} />
                 <h3 className="mt-3">{service.title}</h3>
@@ -33,7 +34,7 @@ const itemTemplate = (service) => {
 
 const ServiceCarousel = () => {
     return (
-        <div>
+        <div className="carrousel">
             <Carousel value={services} numVisible={1} numScroll={1} itemTemplate={itemTemplate} />
         </div>
     );

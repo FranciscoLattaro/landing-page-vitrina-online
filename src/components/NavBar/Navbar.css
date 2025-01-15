@@ -5,10 +5,11 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(242,242,242,.15);
-  position: sticky;
+  background-color: rgba(242,242,242,.8);
+  position: fixed;
   top: 0;
   z-index: 100;
+  width: 100%;
 }
 
 /* Estilo para el título del nav */

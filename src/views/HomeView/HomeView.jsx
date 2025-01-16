@@ -41,7 +41,7 @@ const HomeView = () => {
     <div className="align-items-center">
       <Navbar />
       <ServiceCarousel />
-      <div style={{backgroundColor: '#f2f2f2', paddingBottom: '5rem'}}> {mediaCardsData.map((card, index) => (
+      <div style={{backgroundColor: '#f2f2f2', paddingBottom: '5rem', paddingTop: '2rem'}}> {mediaCardsData.map((card, index) => (
         <MediaCard
           key={index} // Usar el índice como clave (idealmente un ID único si estuviera disponible)
           icon={card.icon}

@@ -38,11 +38,10 @@ const MediaCard = ({
             height: 140,
             display: 'flex',
             alignItems: 'center',
-            justifyContent: 'center',
-            backgroundColor: 'primary.light',
+            justifyContent: 'center'
           }}
         >
-          {Icon && <Icon sx={{ fontSize: 64, color: 'primary.main' }} />}
+          {Icon && <Icon sx={{ fontSize: 100, color: 'black' }} />}
         </Box>
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">

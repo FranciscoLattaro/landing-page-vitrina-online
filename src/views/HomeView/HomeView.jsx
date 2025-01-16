@@ -2,11 +2,13 @@ import React from "react";
 import Navbar from "../../components/NavBar/NavBar";
 import ServiceCarousel from "../../components/Carrousel/Carrousel";
 import MediaCard from "../../components/MediaCard/MediaCard";
-
+import { AddBusiness } from "@mui/icons-material";
+import { icon } from "@fortawesome/fontawesome-svg-core";
 const HomeView = () => {
   // Contenido de los MediaCard como un arreglo de objetos
   const mediaCardsData = [
     {
+      icon: AddBusiness,
       title: "¿Qué ofrecemos?",
       description:
         "Ayudamos a pequeños negocios a digitalizarse creando su tienda online en Shopify de forma gratuita, " +
@@ -36,16 +38,16 @@ const HomeView = () => {
     <div className="align-items-center">
       <Navbar />
       <ServiceCarousel />
-      <div style={{backgroundColor: '#f2f2f2'}}> {mediaCardsData.map((card, index) => (
+      <div style={{backgroundColor: '#f2f2f2', paddingBottom: '5rem'}}> {mediaCardsData.map((card, index) => (
         <MediaCard
           key={index} // Usar el índice como clave (idealmente un ID único si estuviera disponible)
+          icon={card.icon}
           title={card.title}
           description={card.description}
           showButton1={card.showButton1}
           showButton2={card.showButton2}
         />
       ))}</div>
-     
     </div>
   );
 };

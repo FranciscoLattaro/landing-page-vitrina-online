@@ -3,7 +3,8 @@ import Navbar from "../../components/NavBar/NavBar";
 import ServiceCarousel from "../../components/Carrousel/Carrousel";
 import MediaCard from "../../components/MediaCard/MediaCard";
 import { AddBusiness } from "@mui/icons-material";
-import { icon } from "@fortawesome/fontawesome-svg-core";
+import SyncProblemIcon from '@mui/icons-material/SyncProblem';
+import CompareArrowsIcon from '@mui/icons-material/CompareArrows';
 const HomeView = () => {
   // Contenido de los MediaCard como un arreglo de objetos
   const mediaCardsData = [
@@ -17,6 +18,7 @@ const HomeView = () => {
       showButton2: false,
     },
     {
+      icon: SyncProblemIcon,
       title: "¿Qué problema resolvemos?",
       description:
         "Muchas pequeñas tiendas no tienen presencia online porque no saben cómo empezar, y necesitan ayuda confiable con la logística de envíos. " +
@@ -25,6 +27,7 @@ const HomeView = () => {
       showButton2: false,
     },
     {
+      icon: CompareArrowsIcon,
       title: "¿Qué nos diferencia de la competencia?",
       description:
         "No solo hacemos tiendas, también aseguramos que cada cliente tenga soporte continuo y logística eficiente. " +

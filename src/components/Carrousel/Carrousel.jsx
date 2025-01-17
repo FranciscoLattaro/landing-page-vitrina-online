@@ -6,7 +6,7 @@ const services = [
     {
         title: 'Crea tu Tienda Online con Shopify',
         description: 'Tu tienda digital lista para empezar a vender.',
-        image: 'https://img.freepik.com/foto-gratis/persona-agregando-ropa-al-carro-closeup-campana-compras-online_53876-96211.jpg?t=st=1736953527~exp=1736957127~hmac=55734a3a691cac752b4a04fbc8c6a5345d2f32c5713ef96e0cecaf416d3cd28f&w=1060'
+        image: '/image-removebg-preview.png'
     },
     {
         title: 'Gestión de Entregas sin Esfuerzo',

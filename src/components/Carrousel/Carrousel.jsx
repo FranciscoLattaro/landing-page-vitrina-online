@@ -23,7 +23,7 @@ const services = [
 const itemTemplate = (service) => {
     return (
         <div className="p-0 mt-5">
-            <div className="coso">
+            <div className="carousel">
                 <img src={service.image} alt={service.title} style={{ width: '100%' }} />
                 <h3 className="mt-3">{service.title}</h3>
                 <p>{service.description}</p>

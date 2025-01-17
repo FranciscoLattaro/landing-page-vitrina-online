@@ -5,6 +5,8 @@ import MediaCard from "../../components/MediaCard/MediaCard";
 import { AddBusiness } from "@mui/icons-material";
 import SyncProblemIcon from '@mui/icons-material/SyncProblem';
 import CompareArrowsIcon from '@mui/icons-material/CompareArrows';
+
+
 const HomeView = () => {
   // Contenido de los MediaCard como un arreglo de objetos
   const mediaCardsData = [

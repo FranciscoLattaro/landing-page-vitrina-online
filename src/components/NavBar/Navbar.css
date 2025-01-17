@@ -1,11 +1,9 @@
-/* Navbar.css */
-
 /* Estilos generales para el nav */
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #0E2359;
+  background-color: #0e2359;
   position: fixed;
   top: 0;
   z-index: 100;
@@ -15,7 +13,7 @@ nav {
 /* Estilo para el título del nav */
 nav .title {
   font-size: 1.5rem;
-  margin: .9rem 1rem;
+  margin: 0.9rem 1rem;
   text-decoration: none;
   color: white;
   padding-top: 0;
@@ -48,6 +46,7 @@ nav ul li a.active {
 /* Estilo para el hover de los enlaces */
 nav ul li a:not(.active):hover {
   background-color: white;
+  color: #0e2359;
 }
 
 /* Estilos para el menú hamburguesa */
@@ -59,6 +58,7 @@ nav .menu {
   justify-content: space-between;
   width: 2.25rem;
   height: 1.5rem;
+  display: none;
 }
 
 nav .menu span {
@@ -72,29 +72,39 @@ nav .menu span {
 .user-dropdown {
   position: relative;
   cursor: pointer;
-  color: black;
+  color: white;
+  margin-right: 1rem;
+  font-size: 1rem;
+  z-index: 101;
+}
+
+/* Estilo para el dropdown abierto */
+.dropdown-menu {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.9); /* Fondo oscuro semitransparente */
+  color: white;
+  list-style: none;
+  padding: 20px;
+  margin: 0;
+  overflow-y: auto; /* Habilita desplazamiento vertical si el contenido es largo */
+  z-index: 102;
 }
 
 .user-dropdown:hover .dropdown-menu {
   display: block;
 }
 
-.dropdown-menu {
-  display: none;
-  position: absolute;
-  right: 0;
-  background-color: black;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  min-width: 150px;
-}
-
+/* Estilo para los elementos del dropdown */
 .dropdown-menu li {
   padding: 10px;
   cursor: pointer;
-  color: white;
+  text-align: center;
+  border-bottom: 1px solid #444;
 }
 
 .dropdown-menu li:hover {
@@ -124,4 +134,10 @@ nav .menu span {
   nav ul.open {
     display: flex;
   }
+
+  .open {
+    margin-bottom: 100vh;
+  }
 }
+
+

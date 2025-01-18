@@ -21,6 +21,13 @@ const services = [
         title: 'Soporte Técnico Continuo',
         description: 'Aseguramos el éxito de tu tienda online.',
         image: 'service.png'
+    },
+    {
+        title: 'Gestoría',
+        description: 'Trámites en BPS, DGI, inscripción de unipersonales.',
+        image: 'gestoria.jpg',
+        button: true,
+        buttonValue: 'Haz click para saber más!'
     }
 ];
 

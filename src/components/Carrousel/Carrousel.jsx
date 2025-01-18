@@ -4,6 +4,11 @@ import './Carrousel.css';
 
 const services = [
     {
+        title: 'Soporte Técnico Continuo',
+        description: 'Aseguramos el éxito de tu tienda online.',
+        image: 'service.png'
+    },
+    {
         title: 'Gestoría',
         description: 'Trámites en BPS, DGI, inscripción de unipersonales.',
         image: 'gestoria.jpg',
@@ -16,11 +21,6 @@ const services = [
         image: 'moto.png',
         button: true,
         buttonValue: 'Haz click para saber más!'
-    },
-    {
-        title: 'Soporte Técnico Continuo',
-        description: 'Aseguramos el éxito de tu tienda online.',
-        image: 'service.png'
     },
     {
         title: 'Crea tu Tienda Online con Shopify',

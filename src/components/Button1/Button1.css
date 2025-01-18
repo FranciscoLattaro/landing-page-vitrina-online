@@ -1,0 +1,22 @@
+.button1 {
+    background-color: #e8ff2c; /* Color de fondo del botón */
+    color: #000000; /* Color del texto */
+    font-size: 1rem; /* Tamaño del texto */
+    font-weight: 500; /* Grosor del texto */
+    border: none; /* Sin bordes */
+    border-radius: 50px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    cursor: pointer; /* Cursor tipo mano al pasar por el botón */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra del botón */
+    transition: all 0.3s ease; /* Animación de transición */
+  }
+  
+  .button1:hover {
+    background-color: #c4e522; /* Color de fondo al pasar el ratón */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3); /* Sombra al pasar el ratón */
+  }
+  
+  .button1:active {
+    transform: scale(0.95); /* Efecto de "presión" al hacer clic */
+  }
+  

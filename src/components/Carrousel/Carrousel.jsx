@@ -4,11 +4,11 @@ import './Carrousel.css';
 
 const services = [
     {
-        title: 'Crea tu Tienda Online con Shopify',
-        description: 'Tu tienda digital lista para empezar a vender.',
-        image: '/shopify.png',
+        title: 'Gestoría',
+        description: 'Trámites en BPS, DGI, inscripción de unipersonales.',
+        image: 'gestoria.jpg',
         button: true,
-        buttonValue: 'Haz click para ver ejemplos!'
+        buttonValue: 'Haz click para saber más!'
     },
     {
         title: 'Gestión de Entregas sin Esfuerzo',
@@ -23,11 +23,11 @@ const services = [
         image: 'service.png'
     },
     {
-        title: 'Gestoría',
-        description: 'Trámites en BPS, DGI, inscripción de unipersonales.',
-        image: 'gestoria.jpg',
+        title: 'Crea tu Tienda Online con Shopify',
+        description: 'Tu tienda digital lista para empezar a vender.',
+        image: '/shopify.png',
         button: true,
-        buttonValue: 'Haz click para saber más!'
+        buttonValue: 'Haz click para ver ejemplos!'
     }
 ];
 

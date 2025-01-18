@@ -13,3 +13,11 @@
     background-color: black;
 }
 
+.p-carousel-indicators {
+    display: none;
+}
+
+.p-carousel-item {
+    margin-bottom: 3rem;
+}
+

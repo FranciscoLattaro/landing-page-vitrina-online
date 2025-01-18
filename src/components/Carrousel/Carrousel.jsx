@@ -6,7 +6,9 @@ const services = [
     {
         title: 'Crea tu Tienda Online con Shopify',
         description: 'Tu tienda digital lista para empezar a vender.',
-        image: '/image-removebg-preview.png'
+        image: '/shopify.png',
+        button: true,
+        buttonValue: 'Haz click para ver ejemplos!'
     },
     {
         title: 'Gestión de Entregas sin Esfuerzo',
@@ -27,6 +29,14 @@ const itemTemplate = (service) => {
                 <img src={service.image} alt={service.title} style={{ width: '100%' }} />
                 <h3 className="mt-3">{service.title}</h3>
                 <p>{service.description}</p>
+                {service.button && (
+                    <input
+                        type="button"
+                        value={service.buttonValue}
+                        className="carousel-button"
+                        onClick={() => alert('Ejemplo de acción para el botón!')}
+                    />
+                )}
             </div>
         </div>
     );
@@ -35,7 +45,14 @@ const itemTemplate = (service) => {
 const ServiceCarousel = () => {
     return (
         <div className="carrousel">
-            <Carousel value={services} autoplayInterval={3000} circular={true} numVisible={1} numScroll={1} itemTemplate={itemTemplate} />
+            <Carousel
+                value={services}
+                autoplayInterval={3000}
+                circular={true}
+                numVisible={1}
+                numScroll={1}
+                itemTemplate={itemTemplate}
+            />
         </div>
     );
 };
